@@ -4,7 +4,7 @@
 /* Add a border around the body */
 body {
     background-color: #fffdfa; /* White background color */
-    margin: 0; /* Remove default margin */
+    margin: 0 0; /* Remove default margin */
     padding: 10px; /* Add padding around the body */
 }
 
@@ -131,6 +131,6 @@ body {
     /* Adjust scale for smaller screens */
     .rectangle {
         transform: scale(0.7); /* Scale down by 0.8 times */
-        margin: 0 0;
+        margin: 0 -50;
     }
 }
