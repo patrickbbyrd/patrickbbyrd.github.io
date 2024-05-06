@@ -51,7 +51,7 @@ body {
     text-align: center; /* Center align the title */
     letter-spacing: -1px; /* Adjust letter spacing as needed */
     margin-top: 0px;
-    margin-left: -200px; /* Add padding around the title */
+    margin-left: 0px; /* Add padding around the title */
     margin-bottom: 0px;
 }
 
