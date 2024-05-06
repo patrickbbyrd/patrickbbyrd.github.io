@@ -5,22 +5,19 @@
 body {
     background-color: #fffdfa; /* White background color */
     margin: 0; /* Remove default margin */
-    padding: 0px; /* Add padding around the body */
+    padding: 10px; /* Add padding around the body */
 }
 
 .rectangle {
+    transform: scale(1);
     background-color: #f8e9d5; /* Beige background color */
     width: 725px; /* Set the width of the container */
     margin: 0 auto; /* Center the container vertically and horizontally */
     padding-top: 10px; /* Add padding inside the container */
     padding-bottom: 3px; /* Add padding inside the container */
-}
-
-.scaler{
-    transform: scale(1);
-    margin: 0 auto;
     justify-content: center;
 }
+
 
 
 /* Define font-face for your custom font */
@@ -132,7 +129,7 @@ body {
 
 @media only screen and (max-width: 1000px) {
     /* Adjust scale for smaller screens */
-    .scaler {
+    .rectangle {
         transform: scale(0.7); /* Scale down by 0.8 times */
     }
 }
