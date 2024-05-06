@@ -15,7 +15,9 @@ body {
     margin: 0 auto; /* Center the container vertically and horizontally */
     padding-top: 10px; /* Add padding inside the container */
     padding-bottom: 3px; /* Add padding inside the container */
-    justify-content: space-around;
+    
+    display: flex;
+    max-width: 100%;
 }
 
 
