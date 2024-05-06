@@ -11,14 +11,14 @@ body {
 .rectangle {
     background-color: #f8e9d5; /* Beige background color */
     width: 725px; /* Set the width of the container */
-    margin: 0px auto; /* Center the container vertically and horizontally */
+    margin: 0 auto; /* Center the container vertically and horizontally */
     padding-top: 10px; /* Add padding inside the container */
     padding-bottom: 3px; /* Add padding inside the container */
 }
 
 .scaler{
     transform: scale(1);
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 
