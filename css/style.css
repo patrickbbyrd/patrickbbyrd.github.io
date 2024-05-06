@@ -16,6 +16,9 @@ body {
     padding-bottom: 3px; /* Add padding inside the container */
 }
 
+.scaler{
+    transform: scale(1);
+}
 
 
 /* Define font-face for your custom font */
@@ -127,7 +130,7 @@ body {
 
 @media only screen and (max-width: 1000px) {
     /* Adjust scale for smaller screens */
-    .rectangle {
-        transform: scale(0.75); /* Scale down by 0.8 times */
+    .scaler {
+        transform: scale(0.7); /* Scale down by 0.8 times */
     }
 }
