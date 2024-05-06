@@ -10,7 +10,7 @@ body {
 
 .rectangle {
     background-color: #f8e9d5; /* Beige background color */
-    width: 725px; /* Set the width of the container */
+    width: 500px; /* Set the width of the container */
     margin: 0px auto; /* Center the container vertically and horizontally */
     padding-top: 10px; /* Add padding inside the container */
     padding-bottom: 3px; /* Add padding inside the container */
