@@ -15,7 +15,7 @@ body {
     margin: 0 auto; /* Center the container vertically and horizontally */
     padding-top: 10px; /* Add padding inside the container */
     padding-bottom: 3px; /* Add padding inside the container */
-    justify-content: center;
+    justify-content: space-around;
 }
 
 
