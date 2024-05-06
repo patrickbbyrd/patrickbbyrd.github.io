@@ -5,7 +5,7 @@
 body {
     background-color: #fffdfa; /* White background color */
     margin: 0; /* Remove default margin */
-    padding: 10px; /* Add padding around the body */
+    padding: 0px; /* Add padding around the body */
 }
 
 .rectangle {
