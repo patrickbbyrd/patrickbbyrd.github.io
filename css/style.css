@@ -130,7 +130,7 @@ body {
 @media only screen and (max-width: 1000px) {
     /* Adjust scale for smaller screens */
     .rectangle {
-        transform: translate(-25%, 0%) scale(0.5); /* Scale down by 0.8 times */
+        transform: translate(-25%, -25%) scale(0.5); /* Scale down by 0.8 times */
         transform-origin: center;
     }
 
