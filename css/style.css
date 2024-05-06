@@ -124,3 +124,11 @@ body {
     margin-bottom: 0px;
     vertical-align: middle;
 }
+
+
+@media only screen and (max-width: 1300px) {
+    /* Adjust initial scale for smaller screens */
+    meta[name="viewport"] {
+        content: "width=device-width, initial-scale=0.75";
+    }
+}
