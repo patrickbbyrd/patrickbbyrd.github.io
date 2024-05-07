@@ -118,7 +118,7 @@ body {
 
 /* Hover effect */
 .btn:hover {
-    background-color: #151933;
+    background-color: #fffdfa;
 }
 
 .btn img {
@@ -166,4 +166,7 @@ body {
         transform-origin: center;
     }
 
+    .buttons button{
+        margin-right: 0px;
+    }
 }
