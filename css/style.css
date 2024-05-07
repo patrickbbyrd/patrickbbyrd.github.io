@@ -1,4 +1,14 @@
 /* style.css */
+@font-face {
+    font-family: 'sequel-sans-semi'; /* Name for your custom font */
+    src: url('fonts/sequel-sans-semi-bold-body.ttf') format('truetype'); /* Path to your font file */
+}
+
+
+@font-face {
+    font-family: 'sequel-sans-book'; /* Name for your custom font */
+    src: url('fonts/sequel-sans-book-disp.ttf') format('truetype'); /* Path to your font file */
+}
 
 
 /* Add a border around the body */
@@ -20,18 +30,6 @@ body {
 
 
 
-/* Define font-face for your custom font */
-@font-face {
-    font-family: 'sequel-sans-semi'; /* Name for your custom font */
-    src: url('fonts/sequel-sans-semi-bold-body.ttf') format('truetype'); /* Path to your font file */
-}
-
-
-@font-face {
-    font-family: 'sequel-sans-book'; /* Name for your custom font */
-    src: url('fonts/sequel-sans-book-disp.ttf') format('truetype'); /* Path to your font file */
-}
-
 
 
 /* Use the custom font for the title */
@@ -42,18 +40,20 @@ body {
     text-align: center; /* Center align the title */
     letter-spacing: -5px; /* Adjust letter spacing as needed */
     margin-top: -20px;
-    margin-left: -100px; /* Add padding around the title */
+    margin-left: -120px; /* Add padding around the title */
     margin-bottom: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
 }
 
 .subtitle {
-    font-family: 'sequel-sans-book', sans-serif; /* Use your custom font */
+    font-family: 'sequel-sans-book', sans-serif !important; /* Use your custom font */
     font-size: 30px; /* Adjust font size as needed */
     color: #040709; /* Text color */
     text-align: center; /* Center align the title */
     letter-spacing: -1px; /* Adjust letter spacing as needed */
     margin-top: 0px;
-    margin-left: -550px; /* Add padding around the title */
+    margin-left: -565px; /* Add padding around the title */
     margin-bottom: 0px;
 }
 
@@ -64,7 +64,7 @@ body {
 
 .footer {
     text-align: center; /* Center align text */
-    margin-top: -5px; /* Add space between containers and copyright section */
+    margin-top: 15px; /* Add space between containers and copyright section */
 }
 
 .footer p {
@@ -80,17 +80,19 @@ body {
 .container {
     display: flex;
     justify-content: center;
-    padding-bottom: 10px;
 }
+
 
 .container img {
     width: auto; /* Set width */
     height: 650px; /* Maintain aspect ratio */
     margin-right: 10px; /* Set spacing between images */
+    padding-bottom: 10px;
 }
 
 .container img:last-child {
     margin-right: 0; /* Remove margin from last image */
+    padding-bottom: 10px;
 }
 
 .container a {
@@ -116,16 +118,46 @@ body {
 
 /* Hover effect */
 .btn:hover {
-    background-color: #69b7f7;
+    background-color: #151933;
 }
 
 .btn img {
     width: auto; /* Set width */
     height: 40px; /* Maintain aspect ratio */
     padding: 0px;
-    margin-bottom: 0px;
+    margin-bottom: -10px;
     vertical-align: middle;
 }
+
+.buttons {
+    position: absolute; /* Position absolute for positioning */
+    top: 0; /* Align to the top of the container */
+    right: 0; /* Align to the right of the container */
+    display: flex; /* Use flexbox for vertical alignment */
+    flex-direction: column; /* Stack buttons vertically */
+    padding: 0;
+    margin: 0px;
+}
+
+.buttons button {
+    margin-top: 3.25px; /* Add spacing between buttons */
+    margin-right: 10px;
+
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-family: 'sequel-sans-book', sans-serif; /* Use your custom font */
+    font-size: 25px; /* Adjust font size as needed */
+    color: #040709; /* Text color */
+    text-align: right; /* Center align the title */
+    letter-spacing: -1px; /* Adjust letter spacing as needed */
+}
+
+.buttons button:hover{
+    font-family: 'sequel-sans-semi', sans-serif; /* Use your custom font */
+}
+
 
 @media only screen and (max-width: 1000px) {
     /* Adjust scale for smaller screens */
