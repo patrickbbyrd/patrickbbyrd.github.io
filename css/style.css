@@ -167,6 +167,6 @@ body {
     }
 
     .buttons button{
-        margin-right: 0px;
+        margin-right: -10px;
     }
 }
