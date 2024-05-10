@@ -197,13 +197,10 @@ body {
     top: 160px;
     left: 50%;
     transform: translate(-50%, 0%);
+    background-color: white;
 }
 
-.embed-container iframe{
-    background-color: white;
-    border-color: #040709;
-    border-width: 1px;
-}
+
 
 
 
