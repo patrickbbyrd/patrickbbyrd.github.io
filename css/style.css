@@ -13,6 +13,7 @@ body {
     transform: scale(1);
     background-color: #f8e9d5; /* Beige background color */
     width: 725px; /* Set the width of the container */
+    height: 885px;
     margin: 0 auto; /* Center the container vertically and horizontally */
     padding-top: 10px; /* Add padding inside the container */
     padding-bottom: 3px; /* Add padding inside the container */
@@ -29,13 +30,19 @@ body {
     font-weight: bold;
     font-size: 115px; /* Adjust font size as needed */
     color: #040709; /* Text color */
+
     text-align: center; /* Center align the title */
     letter-spacing: -5px; /* Adjust letter spacing as needed */
+
+
     margin-top: -20px;
     margin-left: -115px; /* Add padding around the title */
     margin-bottom: 0px;
-    margin-right: 0px;
-    padding-right: 0px;
+
+}
+
+.no-underline {
+    text-decoration: none;
 }
 
 .subtitle {
@@ -53,11 +60,12 @@ body {
 
 
 
-
-
 .footer {
     text-align: center; /* Center align text */
-    margin-top: 15px; /* Add space between containers and copyright section */
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0%);
 }
 
 .footer p {
@@ -71,35 +79,46 @@ body {
 
 
 
-.container {
+.home-pictures-container {
     display: flex;
     justify-content: center;
 }
 
-
-.container img {
+.home-pictures-container img {
     width: auto; /* Set width */
     height: 650px; /* Maintain aspect ratio */
     margin-right: 10px; /* Set spacing between images */
     padding-bottom: 10px;
 }
 
-.container img:last-child {
+.home-pictures-container img:last-child {
     margin-right: 0; /* Remove margin from last image */
     padding-bottom: 10px;
 }
 
-.container a {
+
+
+
+.social-buttons-container {
+    position:absolute;
+    top: 815px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+    display: flex;
+    justify-content: center;
+}
+
+.social-buttons-container a {
     margin-right: 50px; /* Set spacing between images */
 }
 
-.container a:last-child {
+.social-buttons-container a:last-child {
     margin-right: 0; /* Remove margin from last image */
 }
 
-
 /* Style for the button */
-.btn {
+.social-button {
     display: inline-block;
     padding-bottom: 0px;
     color: #fff;
@@ -111,11 +130,11 @@ body {
 }
 
 /* Hover effect */
-.btn:hover {
+.social-button:hover {
     background-color: #f1ca97;
 }
 
-.btn img {
+.social-button img {
     width: auto; /* Set width */
     height: 40px; /* Maintain aspect ratio */
     padding: 0px;
@@ -123,7 +142,7 @@ body {
     vertical-align: middle;
 }
 
-.buttons {
+.nav-buttons {
     position: absolute; /* Position absolute for positioning */
     top: 5px; /* Align to the top of the container */
     right: 5px; /* Align to the right of the container */
@@ -133,7 +152,7 @@ body {
     margin: 0px;
 }
 
-.buttons a {
+.nav-buttons a {
     margin-top: 3.25px; /* Add spacing between buttons */
     margin-right: 10px;
 
@@ -150,8 +169,12 @@ body {
     letter-spacing: -1px; /* Adjust letter spacing as needed */
 }
 
-.buttons a:hover{
+.nav-buttons a:hover{
     font-weight: bold; /* Use your custom font */
+}
+
+.bold-link {
+    font-weight: bold;
 }
 
 
