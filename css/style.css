@@ -26,6 +26,10 @@ body {
 
 /* Use the custom font for the title */
 .title {
+    position: absolute;
+    left: 5px;
+    top: 10px;
+
     font-family: sans-serif; /* Use your custom font */
     font-weight: bold;
     font-size: 115px; /* Adjust font size as needed */
@@ -36,8 +40,9 @@ body {
 
 
     margin-top: -20px;
-    margin-left: -115px; /* Add padding around the title */
+    margin-left: 0px; /* Add padding around the title */
     margin-bottom: 0px;
+    margin-right: 0px;
 
 }
 
@@ -46,6 +51,12 @@ body {
 }
 
 .subtitle {
+    position: absolute;
+    left: 12px;
+    top: 115px;
+
+
+
     font-family: sans-serif; /* Use your custom font */
     font-weight: normal;
     font-size: 30px; /* Adjust font size as needed */
@@ -53,7 +64,7 @@ body {
     text-align: center; /* Center align the title */
     letter-spacing: 0px; /* Adjust letter spacing as needed */
     margin-top: 0px;
-    margin-left: -565px; /* Add padding around the title */
+    margin-left: 0px;
     margin-bottom: 0px;
 }
 
@@ -80,6 +91,11 @@ body {
 
 
 .home-pictures-container {
+    position:absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
     display: flex;
     justify-content: center;
 }
@@ -120,7 +136,7 @@ body {
 /* Style for the button */
 .social-button {
     display: inline-block;
-    padding-bottom: 0px;
+    padding-bottom: 9px;
     color: #fff;
     text-decoration: none;
     border: none;
