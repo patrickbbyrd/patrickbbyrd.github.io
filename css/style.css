@@ -201,7 +201,7 @@ body {
         transform-origin: center;
     }
 
-    .buttons button{
+    .nav-buttons a{
         margin-right: -10px;
     }
 }
