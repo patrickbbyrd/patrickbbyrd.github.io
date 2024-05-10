@@ -74,7 +74,7 @@ body {
 .footer {
     text-align: center; /* Center align text */
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
     left: 50%;
     transform: translate(-50%, 0%);
 }
@@ -92,7 +92,7 @@ body {
 
 .home-pictures-container {
     position:absolute;
-    top: 150px;
+    top: 160px;
     left: 50%;
     transform: translate(-50%, 0%);
 
@@ -117,7 +117,7 @@ body {
 
 .social-buttons-container {
     position:absolute;
-    top: 815px;
+    top: 825px;
     left: 50%;
     transform: translate(-50%, 0%);
 
@@ -193,15 +193,42 @@ body {
     font-weight: bold;
 }
 
-
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 745px) {
     /* Adjust scale for smaller screens */
     .rectangle {
-        transform: translate(-24.5%, -15%) scale(0.5); /* Scale down by 0.8 times */
+        transform: translate(-5%, 0%) scale(0.9); /* Scale down by 0.8 times */
         transform-origin: center;
     }
+}
 
-    .nav-buttons a{
-        margin-right: -10px;
+@media only screen and (max-width: 672.5px) {
+    /* Adjust scale for smaller screens */
+    .rectangle {
+        transform: translate(-10%, 0%) scale(0.8); /* Scale down by 0.8 times */
+        transform-origin: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    /* Adjust scale for smaller screens */
+    .rectangle {
+        transform: translate(-15%, 0%) scale(0.7); /* Scale down by 0.8 times */
+        transform-origin: center;
+    }
+}
+
+@media only screen and (max-width: 527.5px) {
+    /* Adjust scale for smaller screens */
+    .rectangle {
+        transform: translate(-20%, 0%) scale(0.6); /* Scale down by 0.8 times */
+        transform-origin: center;
+    }
+}
+
+@media only screen and (max-width: 455px) {
+    /* Adjust scale for smaller screens */
+    .rectangle {
+        transform: translate(-25%, 0%) scale(0.5); /* Scale down by 0.8 times */
+        transform-origin: center;
     }
 }
