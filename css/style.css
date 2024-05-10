@@ -195,8 +195,13 @@ body {
 
 
 
-
-
+@media only screen and (max-height: 905px) {
+    /* Adjust scale for smaller screens */
+    .rectangle {
+        transform: translate(0%, -5%) scale(0.9); /* Scale down by 0.8 times */
+        transform-origin: center;
+    }
+}
 
 @media only screen and (max-width: 745px) {
     /* Adjust scale for smaller screens */
