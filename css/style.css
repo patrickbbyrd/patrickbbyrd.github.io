@@ -192,6 +192,17 @@ body {
 }
 
 
+.embed-container {
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+
+
+
+
 
 @media only screen and (max-height: 905px) {
     /* Adjust scale for smaller screens */
