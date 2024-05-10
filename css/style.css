@@ -217,7 +217,7 @@ body {
 @media only screen and (max-width: 600px) {
     /* Adjust scale for smaller screens */
     .rectangle {
-        transform: translate(-15%, 0%) scale(0.7); /* Scale down by 0.8 times */
+        transform: translate(-15%, -10%) scale(0.7); /* Scale down by 0.8 times */
         transform-origin: center;
     }
 }
@@ -225,7 +225,7 @@ body {
 @media only screen and (max-width: 527.5px) {
     /* Adjust scale for smaller screens */
     .rectangle {
-        transform: translate(-20%, -5%) scale(0.6); /* Scale down by 0.8 times */
+        transform: translate(-20%, -15%) scale(0.6); /* Scale down by 0.8 times */
         transform-origin: center;
     }
 }
@@ -233,7 +233,7 @@ body {
 @media only screen and (max-width: 455px) {
     /* Adjust scale for smaller screens */
     .rectangle {
-        transform: translate(-25%, -10%) scale(0.5); /* Scale down by 0.8 times */
+        transform: translate(-25%, -20%) scale(0.5); /* Scale down by 0.8 times */
         transform-origin: center;
     }
 }
